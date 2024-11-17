@@ -28,6 +28,6 @@ export const getHeader = {
     headers: {
         pinata_api_key: apikey,
         pinata_secret_api_key: apisecret,
-        //
+        
     }
 }
