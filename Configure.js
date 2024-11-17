@@ -15,4 +15,19 @@ JWT: 5dkZJo7FHKQB0nw1PGR952fBSqfZsNYUlOrkspHWGILqJwKGWGKC9pEbasBzOVKR
 
 */
 
-/// helloooo
+export const apikey = "9a3a2f77b288f37654c9";
+export const apisecret = "a25de6843a53b37c3811ff81445c529ed25bbe96d978053762fb4eed2d416040";
+export const gatewayjwt = "5dkZJo7FHKQB0nw1PGR952fBSqfZsNYUlOrkspHWGILqJwKGWGKC9pEbasBzOVKR";
+export const ipfsgateway = "amaranth-acceptable-piranha-640";
+
+export const readHeader = {
+    "Content-Type": "application/json",
+}
+
+export const getHeader = {
+    headers: {
+        pinata_api_key: apikey,
+        pinata_secret_api_key: apisecret,
+        //
+    }
+}
